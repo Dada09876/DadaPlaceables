@@ -1,13 +1,14 @@
 #define _ARMA_
 
-ambient[] = {1,1,0.9995683,1};
-diffuse[] = {1,1,0.9995683,1};
+ambient[] = {1,0.9999999,1,.75};
+diffuse[] = {1,0.9999999,1,.75};
 forcedDiffuse[] = {0,0,0,0};
 emmisive[] = {0,0,0,1};
-specular[] = {1,1,1,1};
-specularPower = 100;
+specular[] = {.25,.25,.25,1};
+specularPower = 2000;
 PixelShaderID = "Super";
 VertexShaderID = "Super";
+
 class Stage1
 {
 	texture = "Source_Files\DadaPlaceables\Configs\data\Picture_nohq.paa";
